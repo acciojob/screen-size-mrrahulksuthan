@@ -4,5 +4,5 @@ window.addEventListener('resize', function() {
   var height = window.innerHeight;
   var sizeInfo = document.getElementById('sizeInfo');
   var h1 = sizeInfo.querySelector('h1');
-  h1.textContent = 'Width: ' + width + 'px' + ' Height: ' + height + 'px';
+  h1.textContent = 'Width: ' + width + ' Height: ' + height;
 });
